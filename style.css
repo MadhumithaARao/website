@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+.top {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    height: 80px;
+    margin-left: 20px;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
+.menu {
+    position: center;
+    right: 20px;
+}
+.menu a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+   
+}
+.menu a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+
+.middle {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+
+.bottom {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    background-color: #ffffff;
+}
+.content h2 {
+    color: #003366;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    min-height: 50vh;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main-content {
+    max-width: 60%;
+}
+
+.image-container {
+    margin-left: auto;
+    size: 20px
+}
+
+.static-image {
+    border: 20px solid #333; 
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.news-list li {
+    list-style: square;
+    position: relative;
+    left: 20px;
+}
+.news-detail {
+    margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+<!--
+Mr. Arjun, a fresh graduate Student has joined the software company, 
+and he is been asked to create an attractive web page for the company using HTML and CSS 
+with following specifications.  
+• Split the web page into two parts using frames, top section 15%, middle section 65% 
+and bottom section 20%.  
+• Place company logo at the top left (→) of the page (it should be fixed position) and 
+menu (About, Products & Services, News, Contact Us, Login) at the top right (). with 
+menu’s Create hyperlink for all menus.   
+• Create a web page About the company linked at the middle frame.  
+• Create a web page about the Products & Services linked at the middle frame.  
+• Create a web page about the News, list out the news highlights (which should be 
+relative position), linked at the middle frame click any news highlights, should take 
+you to the news in detail  
+• Create a web page about the Contact Us, list out the contact details at the bottom 
+frame 
+• Create a web page about the Login page linked at the middle frame. 
+• Apply suitable css for each page to make the webpage look more attractive
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Website</title>
+</head>
+<frameset rows="15%,65%,20%" border="0">
+    <frame src="top.html" name="topFrame" scrolling="no" noresize>
+    <frame src="middle.html" name="middleFrame">
+    <frame src="bottom.html" name="bottomFrame" scrolling="no" noresize>
+</frameset>
+</html>
